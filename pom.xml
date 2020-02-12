@@ -422,7 +422,7 @@
     <distributionManagement>
         <snapshotRepository>
             <id>snapshots</id>
-            <url>http://localhost:8081/repository/spring-petclinic/</url>
+            <url>http://localhost:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>releases</id>
