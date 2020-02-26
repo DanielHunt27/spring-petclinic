@@ -376,6 +376,8 @@
                     <server>tomcat-development-server</server>
                     <path>/petclinic</path>
                     <url>http://192.168.56.5:8080/</url>
+                    <username>admin</username>
+                    <password>admin</password>
                     <warSourceDirectory>
                         /var/lib/jenkins/workspace/petclinic/target/petclinic.war
                     </warSourceDirectory>
