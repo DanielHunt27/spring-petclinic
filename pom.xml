@@ -4,7 +4,6 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.devops-bootcamp.samples</groupId>
     <artifactId>petclinic</artifactId>
-    <version></version>
 
     <name>petclinic</name>
     <packaging>war</packaging>
