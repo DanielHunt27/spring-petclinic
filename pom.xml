@@ -376,6 +376,7 @@
                     <server>tomcat-development-server</server>
                     <path>/petclinic</path>
                     <url>http://192.168.56.5:8080/</url>
+                    <update>true</update>
                 </configuration>
             </plugin>
             <plugin>
