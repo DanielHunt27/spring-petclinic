@@ -376,7 +376,7 @@
                     <server>tomcat-development-server</server>
                     <path>/petclinic</path>
                     <url>http://192.168.56.5:8080/manager/text</url>
-                    <warFile>/var/lib/jenkins/workspace/Spring-Petclinic/target/petclinic.war</warFile>
+                    <warFile>/var/lib/jenkins/workspace/petclinic/target/petclinic.war</warFile>
                 </configuration>
             </plugin>
             <plugin>
