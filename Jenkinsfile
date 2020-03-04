@@ -2,9 +2,19 @@ pipeline {
     agent any
 
     stages {
-        stage('Build / Test / Deploy') {
+        stage('Build') {
             steps {
-                sh 'mvn clean install'
+                sh 'mvn clean compile'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'mvn test'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'mvn deploy -DskipTests'
             }
         }
     }
